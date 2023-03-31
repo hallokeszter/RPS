@@ -1,0 +1,75 @@
+/*MINDEN IS MILYEN*/
+
+*{
+    padding: 0;
+    margin:0;
+    background: black;
+    color: red;
+}
+
+/*MINDEN IS LEGYEN KOZEPEN*/
+.GAME{
+    display: flex;
+    flex-direction: coloum;
+    height: 100vh;
+    width: 100wh;
+    justify-content: center;
+    align-items: center;
+}
+
+/*A CIM MILYEN*/
+.TITLE{
+    position: absolute;
+    top: 20px;
+    font-size: 4rem;
+    z-index: 2;
+}
+
+/*PONTSZAMOK MEGJELENITESE OVERALL MILYEN*/
+.SCORE{
+    display: flex;
+    width: 35vw;
+    justify-content: space-between;
+    position: absolute;
+    top: 150px;
+    z-index: 1;
+}
+
+/*PLAYERES COMPUTER PONTSZAMOK MILYENEK*/
+.P-COUNT, .C-COUNT{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+.OPTIONS{
+    display: flex;
+    width: 50vw;
+    justify-content: space-evenly;
+    margin-top: 10rem;
+    border: 2px;
+    border-color: red;
+}
+
+.ROCKBUTTON, .PAPERBUTTON, .SCISSORBUTTON{
+    font-size: 20px;
+    padding: 1rem;
+    width: 100px;
+    border-radius: 10px;
+    background: black;
+    outline: none;
+    cursor: pointer;
+}
+
+.MOVE{
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.RESULT{
+    position: absolute;
+    bottom: 70px;
+    margin-top: 20px;
+    font-size: 2rem;
+}
